@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    
+    <title>Cristine Coffee + Cakes</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="nav">
+        <ion-icon class="burger-btn" name="grid-outline"></ion-icon>
+        <h2 class="logo">Cristine's Coffee + Cakes</h2>
+        <div class="nav-menus">
+            <a href="#">Home</a>
+            <a href="#product">Our Product</a>
+            <a href="#about">About Us</a>
+            <a href="#story">Story</a>
+            <a href="#testimoni">Reviews</a>
+        </div>
+    </nav>  
+
+    <!-- header -->
+    <header>
+        <div class="header-top">
+            <div class="top-left">
+                <h1><span>Perfect</span> Time for a<br>
+                Perfect <span>Coffee</span></h1>
+                <p>At Cristine Coffee and Cakes, we believe in the power of a well-brewed coffee and a decadent slice of cake to brighten your day.</p>
+                <a href="#product"><button class="header-btn">See the Menus</button></a>
+            </div>
+            <div class="top-right">
+                <img src="coffee/home1.jpg" alt="">
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="header-detail">
+                <h2>20+</h2>
+                <p>All of menus</p>
+            </div>
+            <div class="header-detail">
+                <h2>500+</h2>
+                <p>Daily orders</p>
+            </div>
+        </div>
+    </header>
+    <!-- end of navbar -->
+
+    <!-- product -->
+    <section class="product" id="product">
+        <h2 class="title">The best product we have</h2>
+        <div class="product-filter">
+            <button class="btn-filter" data-filter="*">All</button>
+            <button class="btn-filter" data-filter=".coffee">Coffee</button>
+            <button class="btn-filter" data-filter=".signature">Signature Coffee</button>
+            <button class="btn-filter" data-filter=".non-coffee">Non Coffee</button>
+            <button class="btn-filter" data-filter=".tea">Tea</button>
+            <button class="btn-filter" data-filter=".frappuccino">Frappuccino</button>
+            <button class="btn-filter" data-filter=".sandwiches">Sandwiches</button>
+            <button class="btn-filter" data-filter=".sidedishes">Sidedishes</button>
+            <button class="btn-filter" data-filter=".salads">Salads</button>
+            <button class="btn-filter" data-filter=".cheesecakes">Cheesecakes</button>
+            <button class="btn-filter" data-filter=".pastries">Pastries</button>
+            <button class="btn-filter" data-filter=".madetoorder">Made to Order</button>
+        </div>
+
+        <!-- coffee -->
+        <div class="product-list" data-ref="product-list">
+            <div class="product-card coffee" data-order="1">
+                <div class="product-image">
+                    <img src="coffee/americano.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Americano</h4>
+                    <small>Is a popular espresso-based that is made by a shot or two of espresso with hot water.</small>
+                    <div class="product-price">
+                        <p>₱ 105.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card coffee" data-order="2">
+                <div class="product-image">
+                    <img src="coffee/americano.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Cappuccino</h4>
+                    <small>Is a popular espresso-based that is made by combining equal parts of espresso, steamed milk, and milk foam,</small>
+                    <div class="product-price">
+                        <p>₱ 125.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card coffee" data-order="3">
+                <div class="product-image">
+                    <img src="coffee/cafelatte.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Cafe Latte</h4>
+                    <small>Is a popular espresso-based that is made by combining espresso, steamed milk, and small amount of milk foam</small>
+                    <div class="product-price">
+                        <p>₱ 115.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card coffee" data-order="4">
+                <div class="product-image">
+                    <img src="coffee/cafemocha.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Cafe Mocha</h4>
+                    <small>Is a delicious coffee beverage that combines the flavors of chocolate and coffee.</small>
+                    <div class="product-price">
+                        <p>₱ 145.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card coffee" data-order="5">
+                <div class="product-image">
+                    <img src="coffee/americano.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Dark Mocha</h4>
+                    <small>Combines the flavor of espresso, dark chocolate and milk.</small>
+                    <div class="product-price">
+                        <p>₱ 145.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card coffee" data-order="6">
+                <div class="product-image">
+                    <img src="coffee/spanishlatte.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Spanish Latte</h4>
+                    <small>Is a coffee beverage that made by combining espresso, whole milk and condensed milk, resulting in a sweet and creamy flavor.</small>
+                    <div class="product-price">
+                        <p>₱ 125.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of coffee list -->
+
+            <!-- signature's coffee -->
+            <div class="product-card signature" data-order="7">
+                <div class="product-image">
+                    <img src="coffee/signaturecoffee.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Cristine's Signature Coffee</h4>
+                    <small>Cristine's Signature Coffee: where every sip is a taste of
+                        perfection.</small>
+                    <div class="product-price">
+                        <p>₱ 155.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card signature" data-order="8">
+                <div class="product-image">
+                    <img src="coffee/coffeealmondjelly.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Coffee Almond Jelly</h4>
+                    <small>Coffee almond jelly: a heavenly dessert that combines the
+                        best of coffee and almonds in one exquisite bite.</small>
+                    <div class="product-price">
+                        <p>₱ 165.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card signature" data-order="9">
+                <div class="product-image">
+                    <img src="coffee/whitechocolatemocha.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>White Chocolate Mocha</h4>
+                    <small>In a world full of flavors, the white chocolate mocha is a
+                        sweet indulgence that stands out.</small>
+                    <div class="product-price">
+                        <p>₱ 155.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card signature" data-order="10">
+                <div class="product-image">
+                    <img src="coffee/caramelmacchiato.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Caramel Macchiato</h4>
+                    <small>With every sip of a caramel macchiato, you'll discover a new
+                        dimension of sweetness.</small>
+                    <div class="product-price">
+                        <p>₱ 165.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card signature" data-order="11">
+                <div class="product-image">
+                    <img src="coffee/matcha&espresso.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Matcha & Espresso Latte</h4>
+                    <small>The matcha and espresso latte is a vibrant blend that
+                        stimulates both your taste buds and your mind.</small>
+                    <div class="product-price">
+                        <p>₱ 165.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of signature's coffee list -->
+
+            <!-- non coffee -->
+            <div class="product-card non-coffee" data-order="12">
+                <div class="product-image">
+                    <img src="coffee/chocolate.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Chocolate (Hot or Iced)</h4>
+                    <small>It is a delicious and indulgent beverage that combines the flavors of chocolate and espresso with steamed milk.</small>
+                    <div class="product-price">
+                        <p>₱ 115.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card non-coffee" data-order="13">
+                <div class="product-image">
+                    <img src="coffee/machalatte.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Macha Latte (Hot or Iced)</h4>
+                    <small>It is made with matcha powder, milk and sweetener.</small>
+                    <div class="product-price">
+                        <p>₱ 135.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card non-coffee" data-order="14">
+                <div class="product-image">
+                    <img src="coffee/strawberrylatte.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Strawberry Latte (Iced)</h4>
+                    <small>Is an amazing drink bursting with real strawberries and homemade strawberry syrup.</small>
+                    <div class="product-price">
+                        <p>₱ 125.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of non-coffee list -->
+
+            <!-- tea -->
+            <div class="product-card tea" data-order="15">
+                <div class="product-image">
+                    <img src="tea/blacktea.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Black Tea (Hot or Iced)</h4>
+                    <small>It is known for its strong, rich taste and caffeine content.</small>
+                    <div class="product-price">
+                        <p>₱ 115.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card tea" data-order="16">
+                <div class="product-image">
+                    <img src="tea/pomegranatetea.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Pomegranate Tea (Hot or Iced)</h4>
+                    <small>Is a flavorful and antioxcidant-rich beverage made from the infusion of pomegranate fruit and tea leaves.</small>
+                    <div class="product-price">
+                        <p>₱ 145.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card tea" data-order="17">
+                <div class="product-image">
+                    <img src="tea/fruittea.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Passion Fruit Tea (Hot or Iced)</h4>
+                    <small>Is a refreshing and flavorful beverage made from the infusion of passion fruit and tea leaves.</small>
+                    <div class="product-price">
+                        <p>₱ 125.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of tea -->
+
+            <!-- Frappuccino -->
+            <div class="product-card frappuccino" data-order="18">
+                <div class="product-image">
+                    <img src="coffee/mocha.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Mocha (Coffee)</h4>
+                    <small>Combines the flavor of coffee and chocolate.</small>
+                    <div class="product-price">
+                        <p>₱ 165.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="19">
+                <div class="product-image">
+                    <img src="coffee/javachipfrappe.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Java Chip (Coffee)</h4>
+                    <small>Frappuccino chips with coffee, milk and ice that is topped off with whipped cream.</small>
+                    <div class="product-price">
+                        <p>₱ 165.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="20">
+                <div class="product-image">
+                    <img src="coffee/saltedcaremelfrappe.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Salted Caramel (Coffee)</h4>
+                    <small>Combines the flavors of rich coffee, swee caramel and a little bit of sea salt.</small>
+                    <div class="product-price">
+                        <p>₱ 165.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="21">
+                <div class="product-image">
+                    <img src="coffee/coffeejelly.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Coffee Jelly (Coffee)</h4>
+                    <small>It consists of coffee-flavored gelatin cubes with sweetened cream or milk.</small>
+                    <div class="product-price">
+                        <p>₱ 175.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="22">
+                <div class="product-image">
+                    <img src="coffee/whitechocolatemochafrappe.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>White Chocolate Mocha (Coffee)</h4>
+                    <small>This is made with espresso, steamed milk and white chocolate syrup.</small>
+                    <div class="product-price">
+                        <p>₱ 175.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="21">
+                <div class="product-image">
+                    <img src="coffee/matcha&espresso.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Matcha & Espresso (Coffee)</h4>
+                    <small>A regular matcha latte with two shots of espresso.</small>
+                    <div class="product-price">
+                        <p>₱ 175.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="22">
+                <div class="product-image">
+                    <img src="coffee/chocolatecream.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Chocolate Cream (Non Coffee)</h4>
+                    <small>Is a cold and refreshing frappe that combines the flavor of chocolate and whipped cream on top.</small>
+                    <div class="product-price">
+                        <p>₱ 135.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="23">
+                <div class="product-image">
+                    <img src="coffee/triplechocolatecream.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Triple Chocolate Cream (Non Coffee)</h4>
+                    <small>An indulgent and rich beverage combines with three layers of chocolate flavor with caramel syrup and whipped cream on top.</small>
+                    <div class="product-price">
+                        <p>₱ 155.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="24">
+                <div class="product-image">
+                    <img src="coffee/matchacream.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Matcha Cream (Non Coffee)</h4>
+                    <small>It combines the earthy and vibrant flavors of matcha with a creamy and sweet base and whipped cream on top.</small>
+                    <div class="product-price">
+                        <p>₱ 145.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="25">
+                <div class="product-image">
+                    <img src="coffee/strawberrycream.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Strawberry Cream (Non Coffee)</h4>
+                    <small>Is a delightful and fruity blended that combines the flavors of strawberries with a creamy base, a strawberry syrup and whipped cream on top.</small>
+                    <div class="product-price">
+                        <p>₱ 135.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card frappuccino" data-order="26">
+                <div class="product-image">
+                    <img src="coffee/vanillacream.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Vanilla Cream (Non Coffee)</h4>
+                    <small>Is a smooth and creamy blended beverage with a rich vanilla flavor and whipped cream on top.</small>
+                    <div class="product-price">
+                        <p>₱ 175.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of frappuccino list -->
+
+            <!-- Sandwiches -->
+            <div class="product-card sandwiches" data-order="27">
+                <div class="product-image">
+                    <img src="sandwiches/garliccheese.png" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Garlic Cheese Toast</h4>
+                    <small>Our CHEESIEST Garlic Cheese Toast! Can you say Cheeeeeessseeeee?!</small>
+                    <div class="product-price">
+                        <p>₱ 155.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card sandwiches" data-order="28">
+                <div class="product-image">
+                    <img src="sandwiches/tunamelt.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Tuna Melt Sandwich</h4>
+                    <small>A sandwich that filled with tuna and delicious melted cheese.</small>
+                    <div class="product-price">
+                        <p>₱ 155.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card sandwiches" data-order="28">
+                <div class="product-image">
+                    <img src="sandwiches/clubhouse.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Clubhouse</h4>
+                    <small>A delicious and healthy sandwich with lettuce, ham, tomato, egg and ham.</small>
+                    <div class="product-price">
+                        <p>₱ 175.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Sandwiches -->
+
+            <!-- Sidedishes -->
+            <div class="product-card sidedishes" data-order="29">
+                <div class="product-image">
+                    <img src="sidedishes/nachos.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Nachos</h4>
+                    <small>A torilla chips topped with melted cheese and a variety of savory toppings.</small>
+                    <div class="product-price">
+                        <p>₱ 185.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card sidedishes" data-order="30">
+                <div class="product-image">
+                    <img src="sidedishes/quesadillas.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Quesadillas (Beef)</h4>
+                    <small>Made by folding a torilla in half and filling it with cheese and other savory ingredients.</small>
+                    <div class="product-price">
+                        <p>₱ 195.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card sidedishes" data-order="31">
+                <div class="product-image">
+                    <img src="sidedishes/mojos.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Mojos</h4>
+                    <small>A fried potatoes that are seasoned with a flavorful garlic and herb sauce.</small>
+                    <div class="product-price">
+                        <p>₱ 175.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of sidedishes -->
+
+            <!-- Salads -->
+            <div class="product-card salads" data-order="32">
+                <div class="product-image">
+                    <img src="salads/kanisalad.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Kani Salad</h4>
+                    <small>Is refreshing and light Japanese salad made with imitation crab sticks, mixed vegetables and a creamy dressing.</small>
+                    <div class="product-price">
+                        <p>₱ 210.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card salads" data-order="33">
+                <div class="product-image">
+                    <img src="salads/sesamesalds.jfif" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Roasted Sesame Salad</h4>
+                    <small>Steamed spinach dressed with a flavorful sesame sauce.</small>
+                    <div class="product-price">
+                        <p>₱ 185.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of salads -->
+
+            <!-- cheesecakes -->
+            <div class="product-card cheesecakes" data-order="34">
+                <div class="product-image">
+                    <img src="cheesecakes/blueberrycheesecake.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Small Blueberry</h4>
+                    <small>A rich and creamy cheesecake with graham crust, topped with Blueberry compote.</small>
+                    <div class="product-price">
+                        <p>₱ 195.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card cheesecakes" data-order="35">
+                <div class="product-image">
+                    <img src="cheesecakes/oreocheesecake.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Small Oreo</h4>
+                    <small>A rich and creamy cheesecake with oreo crust, topped with Crushed Oreo.</small>
+                    <div class="product-price">
+                        <p>₱ 195.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card cheesecakes" data-order="36">
+                <div class="product-image">
+                    <img src="cheesecakes/strawberrycheesecake.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Small Strawberry Cheesecakes</h4>
+                    <small>A rich and creamy cheesecake with graham crust, topped with Strawberry compote.</small>
+                    <div class="product-price">
+                        <p>₱ 195.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card cheesecakes" data-order="37">
+                <div class="product-image">
+                    <img src="cheesecakes/chocolatealmond.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Small Blueberry</h4>
+                    <small>A rich and creamy cheesecake with graham crust, topped with Dark Chocolate Ganache, Almonds and Chocolate Chips.</small>
+                    <div class="product-price">
+                        <p>₱ 205.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card cheesecakes" data-order="38">
+                <div class="product-image">
+                    <img src="cheesecakes/basqueburnt.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Mini Basque Burnt</h4>
+                    <small>Small in size, big in flavor. The Mini Basque Burnt is a culinary gem that delights with its rich, caramelized perfection.</small>
+                    <div class="product-price">
+                        <p>₱ 195.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of cheesecakes -->
+
+            <!-- pastries -->
+            <div class="product-card pastries" data-order="39">
+                <div class="product-image">
+                    <img src="pastries/brownies.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Brownies</h4>
+                    <small>Our Brownies are delicious, fudgee, and reach chocolate treats that are loved by our costumers!</small>
+                    <div class="product-price">
+                        <p>₱ 50.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card pastries" data-order="40">
+                <div class="product-image">
+                    <img src="pastries/browniebites.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Brownie Bites</h4>
+                    <small>Brownie Bites are bite-sized version of our classic brownies who are delicious, fudgee and reach chocolate treats.</small>
+                    <div class="product-price">
+                        <p>₱ 170.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card pastries" data-order="41">
+                <div class="product-image">
+                    <img src="pastries/browniealanode.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Brownie Ala Mode</h4>
+                    <small>Brownie Ala Mode is a delightful dessert that combines warm brownies with a scoop of ice cream on top.</small>
+                    <div class="product-price">
+                        <p>₱ 95.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card pastries" data-order="42">
+                <div class="product-image">
+                    <img src="pastries/lavacake.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Lava Cake</h4>
+                    <small>Lava Cake have a rich, gooey chocolate center that oozes out when the cake is cut.</small>
+                    <div class="product-price">
+                        <p>₱ 105.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card pastries" data-order="43">
+                <div class="product-image">
+                    <img src="pastries/levaincookies.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>Levain Cookies</h4>
+                    <small>Levain Cookies are thick and indulgent cookies that are famous for their gooey center and crispy edges.</small>
+                    <div class="product-price">
+                        <p>₱ 95.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of pastries -->
+
+            <!-- made to order -->
+            <div class="product-card madetoorder" data-order="44">
+                <div class="product-image">
+                    <img src="cheesecakes/8blueberry.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>6" & 8" Blueberry Cheesecakes</h4>
+                    <small>A luscious dessert that combines the creamy goodness of cheesecake with the sweet and tangy flavor of blueberries.</small>
+                    <div class="product-price">
+                        <p>₱ 645.00 <br> ₱ 995.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card madetoorder" data-order="45">
+                <div class="product-image">
+                    <img src="cheesecakes/8oreo.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>6" & 8" Oreo Cheesecakes</h4>
+                    <small>A delicious dessert that combines the flavor of creamy cheesecake with the beloved chocolate and cream tase of Oreo Cookies.</small>
+                    <div class="product-price">
+                        <p>₱ 645.00 <br> ₱ 995.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card madetoorder" data-order="46">
+                <div class="product-image">
+                    <img src="cheesecakes/8chocolatealmond.jpg" alt="">
+                </div>
+                <div class="product-detail">
+                    <h4>6" & 8" Chocolate Almonds</h4>
+                    <small>A delectable dessert that combines the rich and indulgent flavor of chocolate with the nutty goodness of almonds.</small>
+                    <div class="product-price">
+                        <p>₱ 695.00 <br> ₱ 1065.00</p>
+                        <ion-icon class="heart" name="heart"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <!-- end of made to order -->
+        </div>
+    </section>
+    <!-- End of product -->
+
+    <!-- about us -->
+    <section class="about" id="about">
+        <div class="about-right">
+            <h2 class="title">About us</h2>
+            <p>At Cristine Coffee and Cakes, we believe that the simple pleasures in life can bring immense joy. That's why we have dedicated ourselves to creating a haven where coffee enthusiasts and dessert lovers can come together to indulge in the perfect combination of expertly crafted coffee beverages and delectable cakes.
+                <br>
+                Our journey began with a passion for quality and a commitment to providing an exceptional experience for our customers. We carefully select the finest beans from around the world, ensuring that each cup of coffee is a harmonious blend of flavor, aroma, and body. From rich espresso-based drinks to specialty brews, we strive to offer a diverse and enticing coffee menu that caters to various preferences and taste profiles.
+                <br>
+                Our cakes are a true labor of love. We believe that a great cake not only tantalizes the taste buds but also captivates the eyes. That's why our skilled pastry chefs meticulously craft each cake, paying attention to every detail, from the layers to the frosting, to create visually stunning and incredibly delicious creations. We use high-quality ingredients, sourcing locally whenever possible, to ensure that every bite is a moment of pure indulgence.
+                <br>
+                But it's not just about the coffee and cakes. At Cristine Coffee and Cakes, we believe in providing a warm and inviting atmosphere that makes our customers feel at home. Our café is a place to unwind, connect with friends, or simply enjoy a moment of solitude. Our friendly and knowledgeable staff is here to guide you through our menu, offer personalized recommendations, and ensure that your experience with us is truly memorable.
+                <br>
+                We take pride in our commitment to quality, attention to detail, and the passion we pour into every cup of coffee and every slice of cake. It is our goal to create an oasis where you can escape the hustle and bustle of everyday life and indulge in the simple pleasures that bring happiness and contentment.
+                <br>
+                Welcome to Cristine Coffee and Cakes, where we invite you to savor the artistry, embrace the flavors, and create lasting memories with every sip and every bite.</p>
+        </div>
+    </section>
+
+    <!-- End of about us -->
+
+    <!-- our story -->
+    <section class="story" id="story">
+        <div class="story-left">
+            <div class="story-column">
+                <img src="story/story1.jpg" alt="">
+                <img src="story/story2.jpg" alt="">
+            </div>
+            <div class="story-column">
+                <img src="story/story3.jpg" alt="">
+                <img src="story/story4.jpg" alt="">
+            </div>
+            <div class="story-column">
+                <img src="story/story1.jpg" alt="">
+                <img src="story/story2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="story-right">
+            <h2 class="title">Our story for the best <br>coffee shop in Town</h2>
+            <p>Cristine's Coffee + Cakes is meant to serve good quality products and render quality services amongst Apalit residence and residing baragays. 
+                You can see on their faces how much they enjoyed the food and services that we provide. Their smiles are proof that our place brings comfort and happiness to their day. We guarantee the customers to satisfy their cravings and make their day better with what we can offer. We are looking forward to serving more diverse customers.</p>
+        </div>
+    </section>
+
+    <!-- reviews -->
+    <section class="testimoni" id="testimoni">
+        <h2 class="title">Customers Feedback</h2>
+        <p>Some reviews that customer said about coffee services and business.</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <p>"I would probably
+                        say that this coffee shop is a must for coffee lovers! The
+                        service was good, and the variety of coffee served in the
+                        ambiance was very satisfying. If you like your coffee shops,
+                        then this is a must-visit! We will be back again!"</p>
+                    <div class="testimoni-pic">
+                        <img src="images/profileImg2.jpg" alt="">
+                        <h4>Glaiza de Jesus</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <p>"I really like the
+                        atmosphere, good coffee, and nice interior. This is a good
+                        place to study or chill with friends. The drinks and foods
+                        were all tasty and worthwhile. If you’re up for a fresh place
+                        with beautiful architecture then this is a must to visit."</p>
+                    <div class="testimoni-pic">
+                        <img src="images/profileImg3.jpg" alt="">
+                        <h4>Jhanz Cosio</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <p>"I absolutely love the coffee and cakes at your café! The baristas always make the perfect cup of coffee, and the cakes are incredibly delicious. The coffee has a rich and smooth flavor, and the cakes are always fresh and moist. It's my go-to place for a sweet treat and a great cup of coffee!"</p>
+                    <div class="testimoni-pic">
+                        <img src="images/profileImg4.jpg" alt="">
+                        <h4>Shai Gaviola - Noveno</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <p>"It would be great if you could work on improving the moisture and texture. Additionally, the portion sizes seemed a bit small for the price. I believe providing more value in terms of size would enhance the overall experience."</p>
+                    <div class="testimoni-pic">
+                        <img src="images/profileImg5.jpg" alt="">
+                        <h4>Aiana Eboña</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Brand Section -->
+    <section class="section brand">
+        <div class="brand-container container">
+          <h4 class="section-subtitle"><i>Our Trusted Logo</i></h4>
+
+          <div class="brand-images">
+            <div class="brand-image">
+              <img src="images/logo1.png" alt="" class="brand-img" />
+            </div>
+            <div class="brand-image">
+              <img src="images/logo2.png" alt="" class="brand-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <h2 class="title">Let's drink your <br> favorite coffee with us</h2>
+            <div class="footer-desc">
+                <p>Do you want to explore more about us?</p>
+                <a href="tel: +63917-322-4452"><button class="footer-btn btn-type1">Contact Us</button></a>
+                <a href="#product"><button class="footer-btn btn-type2">Our Product</button></a>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="footer-logo">Cristine's Coffee + Cakes</div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/cristinescoffeecakes/" class="media-icon"><ion-icon name="logo-instagram"></a>
+            <a href="https://www.facebook.com/sweetsandcheesecakebytine" class="media-icon"><ion-icon name="logo-facebook"></a>
+        </div>
+        <div class="copyright">Copyright 2023 Cristine's Coffee + Cakes</div>
+    </footer>
+
+</body>
+
+<!-- script -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- add filter library for product : Mixitup -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+</html>
